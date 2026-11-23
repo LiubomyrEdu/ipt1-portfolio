@@ -1,11 +1,10 @@
-```
 int auswahl;
 
 do
 {
     Console.Write("Eine Anzahl Bücher zwischen 1 und 5: ");
     auswahl = Convert.ToInt32(Console.ReadLine());
-} while (auswahl >= 1 || auswahl <= 5);
+} while (auswahl < 1 || auswahl > 5);
 
 for (int i = 1; i <= auswahl; i++)
 {
@@ -19,4 +18,3 @@ while (auswahl > 0)
 }
 
 Console.WriteLine("Alle Bücher verarbeitet.");
-```
