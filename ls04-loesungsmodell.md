@@ -14,6 +14,7 @@
 
  ### Entwicklungs-Workflow (Code-Schema)
 
+```
 ┌── [1] ⚠️**Marktanalyse & Recherche**
 │      ├── Falls JA  ─────────────► ⚠️Nach offizieller Anleitung installieren und nutzen
 │      └── Falls NEIN ───────────► 🤖Mit Schritt 2 fortfahren
@@ -35,6 +36,6 @@
 └── [5] **Testing & Qualitätssicherung**
     ├── ⚠️Fehler vorhanden ──► Probleme beheben ──► Zurück zu [4]
 	└──  Alles läuft ───────────► Projekt abschließen und nutzen
-
+```
 (⚠️) ungenauen Schritte
 (🤖) logische Befehle
