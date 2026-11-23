@@ -47,13 +47,3 @@ Arbeitsverzeichnis --add--> Staging --commit--> Repository --push--> GitHub
 | `double` | Kommazahl | `12.50`, `0.1` |
 | `string` | Text | `"Mensa"`, `"Max"` |
 | `bool` | wahr / falsch | `true`, `false` |
-
-## Markdown (README)
-
-```
-# Titel
-## Untertitel
-- Listenpunkt
-[Linktext](https://...)
-`code`
-```
