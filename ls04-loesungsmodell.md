@@ -15,25 +15,25 @@
  ### Entwicklungs-Workflow (Code-Schema)
 
 ```
-┌── [1] ⚠️**Marktanalyse & Recherche**
+┌── [1] ⚠️Marktanalyse & Recherche
 │      ├── Falls JA  ─────────────► ⚠️Nach offizieller Anleitung installieren und nutzen
 │      └── Falls NEIN ───────────► 🤖Mit Schritt 2 fortfahren
 │
-├── [2] 🤖**Vorbereitung der Umgebung**
-│      └── Die integrierte Entwicklungsumgebung *(IDE)* öffnen
+├── [2] 🤖Vorbereitung der Umgebung
+│      └── Die integrierte Entwicklungsumgebung (IDE) öffnen
 │
-├── [3] **Implementierung (Code schreiben)**
+├── [3] Implementierung (Code schreiben)
 │      ├── 3.1 ⚠️Abhängigkeiten definieren
-│      │   ├── Vorhanden ────────► 🤖Im Code importieren *(einbinden*)
+│      │   ├── Vorhanden ────────► 🤖Im Code importieren (einbinden)
 │      │   └── Nicht vorhanden ───► 🤖Schritt überspringen
-│      ├── 3.2 ⚠️Zeichensatz festlegen *(Sonderzeichen, Zahlen, Buchstaben)*
-│      ├── 3.3 🤖Logik entwickeln *(Funktion zur Zufallsauswahl schreiben)*
-│      └── 3.4 🤖Funktion aufrufen *(Main-Logik implementieren)*
+│      ├── 3.2 ⚠️Zeichensatz festlegen (Sonderzeichen, Zahlen, Buchstaben)
+│      ├── 3.3 🤖Logik entwickeln (Funktion zur Zufallsauswahl schreiben)
+│      └── 3.4 🤖Funktion aufrufen (Main-Logik implementieren)
 │
-├── [4] 🤖**Deployment & Speichern**
+├── [4] 🤖Deployment & Speichern
 │      └── Den geschriebenen Quellcode sichern und die Datei speichern
 │
-└── [5] **Testing & Qualitätssicherung**
+└── [5] Testing & Qualitätssicherung
     ├── ⚠️Fehler vorhanden ──► Probleme beheben ──► Zurück zu [4]
 	└──  Alles läuft ───────────► Projekt abschließen und nutzen
 ```
